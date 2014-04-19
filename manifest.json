@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+
+	"name": "Shuffle That Shit!",
+	"description": "Adds shortcut icons to the browser bar for soundcloud sets to shuffle them on shufflethatshit.com",
+	"version": "1.0",
+	"permissions" : [
+		"tabs"
+	],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	"icons": {
+		"48": "./images/shufflethatshit48.jpg",
+		"128": "./images/shufflethatshit128.png"
+	},
+	"page_action": {
+		"default_icon": {
+			"19": "images/shufflethatshit19.png",
+			"38": "images/shufflethatshit38.png"
+		},
+		"default_title": "Shuffle Set on shufflethatshit.com"
+	}
+}
