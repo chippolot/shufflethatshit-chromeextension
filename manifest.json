@@ -2,8 +2,8 @@
 	"manifest_version": 2,
 
 	"name": "Shuffle That Shit!",
-	"description": "Adds shortcut icons to the browser bar for soundcloud sets to shuffle them on shufflethatshit.com",
-	"version": "1.0",
+	"description": "Adds shortcut icons to the browser bar that allows you to shuffle soundcloud sets, group sets, and user favorites on shufflethatshit.com.",
+	"version": "1.1",
 	"permissions" : [
 		"tabs"
 	],
@@ -21,6 +21,6 @@
 			"19": "images/shufflethatshit19.png",
 			"38": "images/shufflethatshit38.png"
 		},
-		"default_title": "Shuffle Set on shufflethatshit.com"
+		"default_title": "Shuffle on shufflethatshit.com"
 	}
 }
