@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 
 	"name": "Shuffle That Shit!",
-	"description": "Adds shortcut icons to the browser bar that allows you to shuffle soundcloud sets, group sets, and user favorites on shufflethatshit.com.",
+	"description": "Adds a shortcut icon to the address bar that allows you to shuffle soundcloud playlists on shufflethatshit.com.",
 	"version": "1.1",
 	"permissions" : [
 		"tabs"
